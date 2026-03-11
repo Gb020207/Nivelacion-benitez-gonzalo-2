@@ -1,10 +1,9 @@
-document.getElementById('text').addEventListener('submit' , function(){
-  
-    const miTexto = document.getElementById('texto').value;
-
-    alert(miTexto);
+const input = document.getElementById("texto");
+input.addEventListener("keypress",function(e){
+    if(e.key === "Enter"){
+        alert(input.value);
+    }
 })
-
 let state = 0;
 function ChangeColor(){
  const box = document.getElementById('texto')

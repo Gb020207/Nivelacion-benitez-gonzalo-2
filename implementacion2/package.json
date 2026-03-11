@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "name": "implementacion2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "implementacion2.js",
+  "devDependencies": {},
+  
+  "scripts": {
+    "dev": "node servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
